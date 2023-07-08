@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    font-family: 'Open Sens', sans-serif;
+}
+
+.coral {
+    color: coral;
+}
+
+.btn-primary {
+    color: aliceblue;
+    font-family: 700;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+.header {}
