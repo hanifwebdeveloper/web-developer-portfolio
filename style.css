@@ -1,10 +1,15 @@
 * {
     margin: 0;
-    font-family: 'Open Sens', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.coral {
-    color: coral;
+.text-primary {
+    color: #FD6E0A;
+}
+
+.nav-title {
+    font-size: 56px;
+    font-weight: 700;
 }
 
 .btn-primary {
@@ -17,4 +22,23 @@
     border-radius: 5px;
 }
 
-.header {}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
